@@ -2,5 +2,8 @@
     font-size: x-large;
     color: darkred;
     font-style: italic
+}
+.hero > button {
+    background-color: forestgreen;
 
 }
