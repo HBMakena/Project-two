@@ -8,12 +8,15 @@
     outline: none;
     border: none;
     color: #fff;
-    width: 15%;
+    width: 12%;
     padding: .5rem 1rem;
     border-radius: .2rem;
     font-weight: 600;
     font-size: large;
 }
+.form-wrapper > div > input {
+    width: 15%;
+} 
 .hero-content {
     font-size: large;
    
