@@ -1,5 +1,5 @@
 .important {
-    font-size: x-large;
+    font-size: xx-large;
     color: darkred;
     font-style: italic
 }
@@ -12,5 +12,6 @@
     padding: .5rem 1rem;
     border-radius: .2rem;
     font-weight: 600;
+    font-size: large;
 
 }
