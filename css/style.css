@@ -3,7 +3,7 @@
     color: darkred;
     font-style: italic
 }
-.hero > button {
+.form-wrapper > div > button {
     background-color: forestgreen;
     outline: none;
     border: none;
@@ -16,7 +16,9 @@
 }
 .hero-content {
     font-size: large;
+   
 }
 .hero-content > h1 {
-    color: green;
+    color:darkslategray
 }
+
