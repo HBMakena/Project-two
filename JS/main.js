@@ -4,4 +4,13 @@ var date = parseInt(document.getElementsByClass("day").value);
 var month = parseInt(document.getElementsByClassName("month").value);
 var year = parseInt(document.getElementsByClassName("year").value);
 
+var day = d.getDay();
+var days = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"]
+var isFemale = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"]
+var isMale = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"]
+
+function getAkan(){
+    var isMale = document.getElementsByClassName("male").checked
+    var isFemale = document.getElementsByClassName("female").checked
+}
 }
