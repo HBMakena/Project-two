@@ -23,6 +23,7 @@
     text-transform: uppercase;
     font-weight: 550;
     font-size: 100%;
+    align-items: center;
 } 
 .hero-content {
     font-size: large;
@@ -30,5 +31,8 @@
 }
 .hero-content > h1 {
     color:darkslategray
+}
+.form-wrapper {
+    gap: 2%;
 }
 
