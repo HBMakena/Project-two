@@ -16,6 +16,7 @@
 }
 .form-wrapper > div > input {
     width: 15%;
+    padding: .8rem .5rem;
 } 
 .hero-content {
     font-size: large;
