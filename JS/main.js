@@ -10,7 +10,16 @@ var isFemale = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"]
 var isMale = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"]
 
 function getAkan(){
-    var isMale = document.getElementsByClassName("male").checked
-    var isFemale = document.getElementsByClassName("female").checked
+    var isMale = document.getElementsByClass("male").checked
+    var isFemale = document.getElementsByClass("female").checked
+    if(isMale == true && isFemale == false){
+        if(day == o){
+            alert("Akan name is" = male(0));
+        }
+        if(day == 1){
+            alert("Akan name is" = male(1));
+        }
+        if
+    }
 }
 }
