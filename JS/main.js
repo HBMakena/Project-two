@@ -19,7 +19,22 @@ function getAkan(){
         if(day == 1){
             alert("Akan name is" = male(1));
         }
-        if
+        if(day == 2){
+            alert("Akan name is" = male(2));
+        }
+        if(day == 3){
+            alert("Akan name is" == male(3));
+        }
+        if(day == 4){
+            alert("Akan name is" == male(4));
+        }
+        if(day == 5){
+            alert("Akan name is" == male(5));
+        }
+        if(day == 6){
+            alert("Akan name is" == male(6));     
+        }
     }
+    
 }
 }
