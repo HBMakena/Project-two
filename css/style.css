@@ -25,14 +25,21 @@
     font-size: 100%;
     align-items: center;
 } 
-.hero-content {
+.jumbotron > p {
     font-size: large;
    
 }
-.hero-content > h1 {
+.jumbotron > h1 {
     color:darkslategray
+
 }
 .form-wrapper {
     gap: 2%;
 }
 
+.container {
+padding-right: 30px;
+padding-left: 30px;
+margin-right: auto;
+margin-left: auto;
+}

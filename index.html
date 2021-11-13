@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Application</title>
     <link rel="stylesheet" href="/css/style.css" />
+   <link href="css/bootstap.css" rel="stylesheet" type="text/css">
   </head>
-  <body>
-      <div class="flex container">
-    <div class="hero-content">
+  <body> 
+<div class="container">
+    <div class="jumbotron">
     <h1>Get to know your Akan Name</h1>
     <p>
       An Akan name is a name derivered fron Ghanian culture.In Ghana, children
@@ -29,31 +30,23 @@
  <form>
  <div class="form-wrapper">
     <h2>YOUR BIRTH DATE</h2>
-    <div>
-        <input type="text" class="day" placeholder="DAY">
-    </div>
-   <div>
-       <input type="text" class="month" placeholder="MONTH">
-   </div>
-   <div>
-       <input type="text" class="year" placeholder="YEAR">
-   </div>
+    <input type="text" class="day" placeholder="DAY">
+    <p class="dayerror"></p>
+    <input type="text" class="month" placeholder="MONTH">
+    <p class="montherror"></p>
+    <input type="text" class="year" placeholder="YEAR">
+    <p class="yearerror"></p>
    <h3>SELECT GENDER</h3>
-   <label for="Female"> Female:</label>
-   <input type="checkbox" class="Female" class="">
-   <label for="Male"> Male:</label>
-   <input type="checkbox" class="Male" class="">
-    
+   <label for="female"> female:</label>
+   <input type="checkbox" class="female" class="">
+   <label for="male"> male:</label>
+   <input type="checkbox" class="male" class="">
+   <p class="checkboxerror"></p>
     <div>
-      <button>SUBMIT</button>
-    </div>
-</div>
-    <p>
-      By clicking this button, you are able to know your
-      <strong>AKAN NAME</strong>
-    </p>
+      <button type="button" onclick="fn()">SUBMIT</button>
       </div>
+</div>
     </form> 
-      <script src="/JS/main.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>
