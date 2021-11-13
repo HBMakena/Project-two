@@ -10,6 +10,8 @@
   </head>
   <body> 
 <div class="container">
+  <div class="row">
+    <div class="col-m-8">
     <div class="jumbotron">
     <h1>Get to know your Akan Name</h1>
     <p>
@@ -24,27 +26,30 @@
       Akosua, Adwoa, Abenaa, Akua, Yaa, Afua and Ama.<br>From Sunday to Saturday respectively.
     </p>  
     </div>
+  </div>
+  </div>
     <div class="important">
     <p>Are You Ready!</p>
     </div>
  <form>
  <div class="form-wrapper">
-    <h2>YOUR BIRTH DATE</h2>
+    <h2 class="bg-danger">YOUR BIRTH DATE</h2>
     <input type="text" class="day" placeholder="DAY">
     <p class="dayerror"></p>
     <input type="text" class="month" placeholder="MONTH">
     <p class="montherror"></p>
     <input type="text" class="year" placeholder="YEAR">
     <p class="yearerror"></p>
+ </div>
    <h3>SELECT GENDER</h3>
    <label for="female"> female:</label>
    <input type="checkbox" class="female" class="">
    <label for="male"> male:</label>
    <input type="checkbox" class="male" class="">
    <p class="checkboxerror"></p>
-    <div>
-      <button type="button" onclick="fn()">SUBMIT</button>
-      </div>
+    <div class="button">
+      <button onclick="fn()">SUBMIT</button>
+    </div>
 </div>
     </form> 
     <script src="main.js"></script>

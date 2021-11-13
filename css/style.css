@@ -3,19 +3,19 @@
     color: darkred;
     font-style: italic
 }
-.form-wrapper > div > button {
+button {
     background-color: forestgreen;
     outline: none;
-    border: none;
+    border: 1.5px;
     color: #fff;
-    width: 12%;
-    padding: .5rem 1rem;
-    border-radius: .2rem;
+    width: 20%;
+    padding: .7rem 1rem;
+    border-radius: .4rem;
     font-weight: 600;
     font-size: large;
 }
-.form-wrapper > div > input {
-    width: 15%;
+.form-wrapper > input {
+    width: 30%;
     padding: .8rem .5rem;
     outline: none;
     border: 1.5px solid #111;
@@ -42,4 +42,5 @@ padding-right: 30px;
 padding-left: 30px;
 margin-right: auto;
 margin-left: auto;
+
 }
