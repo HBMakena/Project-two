@@ -1,18 +1,18 @@
-Project-Two
-#### This project tells more about Akan Names, 12/11/21
-#### By Happiness Makena
+# {project-two}
+#### {THis is a site that helps one know their Akan name}, {14/11/2021}
+#### By **{Happiness Makena}**
 ## Description
-{This application helps one identify their Akan names. This names are derived from the Ghanian culture where children are named as a "day name" which corresponds to the day in the week they were born.}
+{This web application is created to help one get their Akan name. An Akan name is a name derivered from the Ghanian culture. Children are given their first name as a "day name" which corresponds to the day in the week they were born. }
 ## Setup/Installation Requirements
-* Clone the repo {git clone https://github.com/HBMakena/Project-two.git
+* Clone the repo :{git clone https://github.com/HBMakena/Project-two.git }
 ## Live link
-https://hbmakena.github.io/Project-two/
+ https://hbmakena.github.io/Project-two/
 ## Known Bugs
-{ if any is detected i will let you know.}
+{If any issue emerges i will let you know}
 ## Technologies Used
 {This project has been written in HTML, CSS and JAVASCRIPT}
 ## Support and contact details
-{If you run into any issues or have any concerns you can reach me via makenahappiness97@gmail.com and we will try to solve the issue.}
+{If you come across any problem feel free to contact me via makenahappiness97@gmail.com}
 ### License
 This is under the [MIT](LICENSE) license
 Copyright (c) {2021}
