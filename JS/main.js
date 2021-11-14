@@ -32,48 +32,48 @@ function getAkan() {
     var isfemale = document.getElementsByClass("female").checked;
     if (ismale == true && isfemale == false) {
         if (day == 0) {
-            alert("Akan name is " .concat() male[0]);
+            alert("Akan name is " + male[0]);
         }
         else if (day == 1) {
-            alert("Akan name is " .concat() male[1]);
+            alert("Akan name is " + male[1]);
         }
         else if (day == 2) {
-            alert("Akan name is " .concat() male[2]);
+            alert("Akan name is " + male[2]);
         }
         else if (day == 3) {
-            alert("Akan name is " .concat() male[3])
+            alert("Akan name is " + male[3])
         }        
         else if (day == 4) {
-            alert("Akan name is " .concat() male[4]);
+            alert("Akan name is " + male[4]);
         }
         else if (day == 5) {
-            alert("Akan name is " .concat() male[5]);
+            alert("Akan name is " + male[5]);
         }
         else if (day == 6) {
-            alert("Akan name is " .concat() Male[6]);     
+            alert("Akan name is " + Male[6]);     
         }
     }
    else if (ismale == false && isfemale == true) {
        if (day == 0) {
-           alert("Akan name is " .concat() female[0]);
+           alert("Akan name is " + female[0]);
        }
        else if (day == 1) {
-           alert("Akan name is " .concat() female[1]);
+           alert("Akan name is " + female[1]);
        }
        else if (day == 2) {
-           alert("Akan name is " .concat() female[2]);
+           alert("Akan name is " + female[2]);
        }
        else if (day == 3) {
-           alert("Akan name is " .concat() female[3]);
+           alert("Akan name is " + female[3]);
        }
        else if (day == 4) {
-           alert("Akan name is " .concat() female[4]);
+           alert("Akan name is " + female[4]);
        } 
        else if (day == 5) {
-           alert("Akan name is " .concat() female[5]);
+           alert("Akan name is " + female[5]);
        }
        else if (day == 6) {
-           alert("Akan name is " .concat() female[6]);
+           alert("Akan name is " + female[6]);
        }
     }
  }
