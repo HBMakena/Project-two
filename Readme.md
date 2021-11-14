@@ -6,7 +6,7 @@
 ## Setup/Installation Requirements
 * Clone the repo :{git clone https://github.com/HBMakena/Project-two.git }
 ## Live link
- https://hbmakena.github.io/Project-two/
+https://hbmakena.github.io/Project-two/
 ## Known Bugs
 {If any issue emerges i will let you know}
 ## Technologies Used
